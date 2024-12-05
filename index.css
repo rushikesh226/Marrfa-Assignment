@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  line-height: 1.6;
+}
+.search-container{
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1{
+  color: teal;
+  text-align: center;
+}
+
+#searchBox{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+#searchBox input,
+#searchBox select{
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+
